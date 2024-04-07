@@ -1,0 +1,25 @@
+ body{
+    width: 300px;
+    height: 200px;
+    background-color: #fff;
+    display: flex;
+    justify-content: center;
+    padding: 5px;
+ }
+  
+  
+p{   
+    display: inline-flex;
+    margin: auto 10px;
+    font-size: 22px;
+    border-radius: 6px;
+    border: 2px solid rebeccapurple;
+    padding: 10px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Add shadow */
+  transition: box-shadow 0.3s ease; /* Add transition for shadow effect */
+}
+  
+ /* Hover effect */
+p:hover {
+    box-shadow: 0 4px 8px rgba(253, 18, 18, 0.2); /* Increase shadow on hover */
+  }
